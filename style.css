@@ -1,0 +1,25 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.object-cover{
+  object-fit: cover;
+}
+
+main{
+  flex-grow: 1;
+}
+
+.action {
+  cursor: pointer;
+  transition: all .25s ease;
+}
+.action:hover {
+  transform: scale(1.02);
+}
+
+.ice-cream-card{
+  height: 100%
+}
